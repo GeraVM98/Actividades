@@ -6,8 +6,7 @@ import javax.swing.JOptionPane;
 
 public class SLRAgent extends Agent {
 
-	// funcion y= ax+b
-   	public static double[] calcRectaRegresionYsobreX(double[] lasX, double[] lasY) {
+	public static double[] calcRectaRegresionYsobreX(double[] lasX, double[] lasY) {
         	double[] retVal = new double[3];
        		double mediaX = calcMedia(lasX);
         	double mediaY = calcMedia(lasY);
@@ -65,8 +64,8 @@ public class SLRAgent extends Agent {
 			double X_est;
 			double Y_est;
 
-			X[0] = 651;X[1] = 762;X[2] = 856;X[3] = 1063;X[4] = 1190;X[5] = 1298;X[6] = 1421;X[7] = 1440;X[8] = 1518;
-			Y[0] = 23;Y[1] = 26;Y[2] = 30;Y[3] = 34;Y[4] = 43;Y[5] = 48;Y[6] = 52;Y[7] = 57;Y[8] = 58;
+			Y[0] = 651;Y[1] = 762;Y[2] = 856;Y[3] = 1063;Y[4] = 1190;Y[5] = 1298;Y[6] = 1421;Y[7] = 1440;Y[8] = 1518;
+			X[0] = 23;X[1] = 26;X[2] = 30;X[3] = 34;X[4] = 43;X[5] = 48;X[6] = 52;X[7] = 57;X[8] = 58;
 
 			resultados = calcRectaRegresionYsobreX(X,Y);
 		
