@@ -1,0 +1,2 @@
+javac -cp lib/* src\Hands_on_6/MLRAgent.java -d classes/
+-cp lib/*;classes/ jade.Boot -gui MLRAgent:Hands_on_6.MLRAgent
