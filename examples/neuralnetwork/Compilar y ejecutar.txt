@@ -1,0 +1,23 @@
+Flecha a la izquierda
+0 0 1 0 0 0 1 0 0 0 1 1 1 1 1 0 1 0 0 1 0 0 1 0 1
+0 0 1 0 0 0 1 1 0 0 1 1 1 1 1 0 1 1 0 1 0 0 1 0 1
+0 1 1 0 0 1 1 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 1 0 1
+0 1 1 0 0 1 1 0 0 0 1 1 1 1 1 0 1 0 0 1 0 1 1 0 1
+
+Flecha a la derecha
+0 0 1 0 0 0 0 1 1 0 1 1 1 1 1 1 0 1 1 0 1 0 1 0 0
+0 0 1 1 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0
+0 0 1 0 0 0 0 0 1 0 1 1 1 1 1 1 0 0 1 0 1 0 1 0 0
+0 0 1 1 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 0 1 1 0
+
+Compilar
+javac -classpath lib/jade.jar -d classes src/examples/neuralnetwork/\*.java src/examples/neuralnetwork/\*.java
+
+Ejecutar
+java -cp lib/jade.jar;classes jade.Boot -gui -port 3100 -agents newAgent:NeuralNetworkAgent
+
+
+1 0 1 0 0 0 0 1 1 0 1 1 1 1 1 1 0 1 1 0 1 0 1 0 1
+
+
+
